@@ -1,0 +1,19 @@
+conda install -c conda-forge fastapi -- just installing packages in the Python Environment
+
+steps to run api locally:
+
+1. go to the directory of the cd c:\dev\api\main.py
+
+2. rund conda activate backend --- PLEASE DO NOT RUN THIS YERRRR
+
+3. uvicorn main:app --reload
+
+4. http://127.0.0.1:8000/
+
+
+
+----------------
+
+running strealit
+
+streamlit run app.py
